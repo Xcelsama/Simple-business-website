@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        header {
+            background-color: #00796B;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .product {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.8em;
+            margin: 15px 0;
+            color: #00796B;
+        }
+
+        .product p {
+            font-size: 1em;
+            color: #777;
+        }
+
+        .product .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4caf50;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            clear: both;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #f1c40f;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIM-SIM COSTUMES</h1>
+        <p>Your one-stop shop for luxury perfumes, stunning hair accessories, and vibrant lipsticks</p>
+    </header>
+
+    <div class="product">
+        <img src="img/simio4.jpg" alt="Perfume 1">
+        <h2>Perfume 1</h2>
+        <p>Indulge in our exquisite range of perfumes that captivate the senses.</p>
+        <p class="price">$50.00</p>
+    </div>
+
+    <div class="product">
+        <img src="img/simi01.png" alt="Perfume 2">
+        <h2>Perfume 2</h2>
+        <p>Experience the essence of luxury with our premium perfumes.</p>
+        <p class="price">$70.00</p>
+    </div>
+
+    <div class="product">
+        <img src="img/simi03.jpg" alt="Hair Accessory 1">
+        <h2>Hair Accessory 1</h2>
+        <p>Add the perfect touch to your look with our stylish hair accessories.</p>
+        <p class="price">$20.00</p>
+    </div>
+
+    <div class="product">
+        <img src="img/simi02.jpg" alt="Hair Accessory 2">
+        <h2>Hair Accessory 2</h2>
+        <p>Elevate your style with our premium hair accessories.</p>
+        <p class="price">$30.00</p>
+    </div>
+
+    <div class="product">
+        <img src="lipstick1.jpg" alt="Lipstick 1">
+        <h2>Lipstick 1</h2>
+        <p>Explore our vibrant lipsticks that bring out the bold in you.</p>
+        <p class="price">$15.00</p>
+    </div>
+
+    <div class="product">
+        <img src="lipstick2.jpg" alt="Lipstick 2">
+        <h2>Lipstick 2</h2>
+        <p>Make a statement with our long-lasting lipsticks.</p>
+        <p class="price">$25.00</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Xcelsama </p>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
